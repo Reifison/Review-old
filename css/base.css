@@ -1,10 +1,11 @@
 .menu{
-  color: #516066;
+  color: #87000c;
   float: left;
   display: inline;
-  margin-right: 90px;
+  margin: -10px;
+  margin-top: -10px;
   height: 60px;
-  width: 100%;
+  width: 1600px;
   background-color: #c7ced8;
 }
 .menu .item{
@@ -14,5 +15,5 @@
 
 .main-publi-top{
 
-  
+
 }
