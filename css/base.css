@@ -1,3 +1,10 @@
 .menu{
   color: blue;
+  float: left;
+  display: inline;
+  margin-right: 90px;
+}
+.menu .item{
+  float: left;
+  margin-left: 30px;
 }
