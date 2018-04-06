@@ -1,3 +1,22 @@
+body{
+  background-color: #F8F8F6;
+}
 .menu{
-  color: blue;
+  color: #87000c;
+  float: left;
+  display: inline;
+  margin: -10px;
+  margin-top: -10px;
+  height: 60px;
+  width: 1600px;
+  background-color: #c7ced8;
+}
+.menu .item{
+  float: left;
+  margin-left: 30px;
+}
+
+.main-publi-top{
+
+
 }
