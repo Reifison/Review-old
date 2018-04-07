@@ -1,27 +1,59 @@
 body{
   background-color: #F8F8F6;
+  background-color: white;
+}
+div#interface{
+  width: 1600px;
+  background-color: #dedfe0;
+  margin: auto auto 0 auto;
+  padding-top: 40px;
 }
 .logo{
 background-color: red;
+position: absolute;
   height: 20px;
   width: 8%;
-  display: inline;
+z-index: 1000;
   float: left;
+  margin-right: 30px;
+  margin-top: -35px;
 
 }
-.menu{
-  color: #87000c;
-  float: left;
-  display: inline;
-  margin: 40px;
-  margin-top: -10px;
-  height: 60px;
-  width: 1800px;
-  background-color: #c7ced8;
+nav#menu{
+  display: block;
+  color: white;
+
 }
-.menu .item{
-  float: left;
-  margin-left: 30px;
+nav#menu ul{
+list-style: none;
+text-transform: uppercase;
+position: absolute;
+top: -20px;
+
+background-color: black;
+padding-left: 400px;
+padding-top: 4px;
+width: 1200px;
+}
+nav#menu li{
+  display: inline-block;
+  padding: 8px;
+  margin: 4px;
+  color: #d3d9e2;
+}
+nav#menu li a{
+  color: #d3d9e2;
+  text-decoration: none;
+  hover color: red;
+}
+nav#menu li a:hover{
+color: red;
+
+}
+
+
+nav#menu li:hover{
+  color: red;
 }
 
 .main-publi-top{
