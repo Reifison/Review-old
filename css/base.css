@@ -132,6 +132,8 @@ h2{
   padding-left: 18px;
   margin-top: 0px;
   font-size: 30px;
+  color: red;
+
 }
 .dandara{
   position: relative;
@@ -169,5 +171,17 @@ border-top: 0px;
 }
 .home-list-plataforms{
   float: left;
-  margin-left: -800px;
+  margin-left: -1050px;
+  margin-top: 300px;
+  position: relative;
+}
+.skyrim{
+  padding-left: 20px;
+
+
+}
+.stars-switch-list{
+  position: relative;
+  padding-left: 180px;
+margin-top: -150px;
 }
