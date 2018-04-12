@@ -171,23 +171,44 @@ border-top: 0px;
 }
 .home-list-plataforms{
   float: left;
-  margin-left: -1050px;
-  margin-top: 300px;
   position: relative;
+color: blue;
+padding-left: 20px;
+
+
+
+}
+.list-games-swtich{
+background-color: pink;
+position: relative;
+margin-top: 0px;
+float: left;
+
 }
 .skyrim{
-margin-left: 40px;
-margin-top: 200px;
+margin-left: 10px;
+
 position: relative;
-background-color: blue;
+background-color: ;
 height: 600px;
 width: 600px;
 }
-
+.line-list-switch-rigth {
+  float: left;
+  margin-left: -330px;
+  margin-top: 60px;;
+  position: relative;
+  width: 500px;
+}
+.skyrim p{
+padding-left: 180px;
+position: relative;
+margin-top: -200px;
+color: black;
 }
 .
 /*
-.skyrim p{
+.
   padding-left: 250px;
   float: left;
 
@@ -202,12 +223,7 @@ margin-top: -150px;
   margin-top: 50px;
   position: relative;
 }
-.line-list-switch-rigth {
-  float: left;
-  margin-left: -250px;
-  margin-top: 30px;
-  position: relative;
-}
+
 .stars-switch-list{
   float: left;
   margin-left: -355px;
