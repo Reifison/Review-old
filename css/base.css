@@ -176,17 +176,21 @@ border-top: 0px;
   position: relative;
 }
 .skyrim{
-
-
+margin-left: 40px;
+margin-top: 200px;
+position: relative;
+background-color: blue;
+height: 600px;
+width: 600px;
+}
 
 }
+.
+/*
 .skyrim p{
   padding-left: 250px;
   float: left;
-}
-.skyrim h2{
-  padding-left: 250px;
-}
+
 .stars-switch-list{
   position: relative;
   padding-left: 180px;
@@ -194,8 +198,8 @@ margin-top: -150px;
 }
 .img-list-switch-rigth {
   float: left;
-  margin-left: -250px;
-  margin-top: 30px;
+  margin-left: -335px;
+  margin-top: 50px;
   position: relative;
 }
 .line-list-switch-rigth {
@@ -204,3 +208,9 @@ margin-top: -150px;
   margin-top: 30px;
   position: relative;
 }
+.stars-switch-list{
+  float: left;
+  margin-left: -355px;
+  margin-top: 50px;
+}
+*/
