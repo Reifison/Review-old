@@ -186,7 +186,7 @@ float: left;
 
 }
 .skyrim{
-margin-left: 10px;
+margin-left: -12px;
 
 position: relative;
 background-color: ;
@@ -195,7 +195,7 @@ width: 600px;
 }
 .line-list-switch-rigth {
   float: left;
-  margin-left: -330px;
+  margin-left: -360px;
   margin-top: 60px;;
   position: relative;
   width: 500px;
@@ -206,11 +206,10 @@ position: relative;
 margin-top: -200px;
 color: black;
 }
-.
+
 /*
 .
-  padding-left: 250px;
-  float: left;
+
 
 .stars-switch-list{
   position: relative;
