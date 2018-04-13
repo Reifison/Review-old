@@ -179,14 +179,13 @@ padding-left: 20px;
 
 }
 .list-games-swtich{
-background-color: pink;
 position: relative;
 margin-top: 0px;
 float: left;
 
 }
 .skyrim{
-margin-left: -12px;
+margin-left: 13px;
 
 position: relative;
 background-color: ;
@@ -195,27 +194,54 @@ width: 600px;
 }
 .line-list-switch-rigth {
   float: left;
-  margin-left: -360px;
+  margin-left: -330px;
   margin-top: 60px;;
   position: relative;
   width: 500px;
 }
 .skyrim p{
-padding-left: 180px;
+padding-left: 20px;
 position: relative;
-margin-top: -200px;
+margin-top: -10px;
 color: black;
+float: left;
+}
+.stars-switch-list{
+  position: relative;
+  padding-left: 180px;
+margin-top: -150px;
+float: left;
+}
+.info-game-home-skyrim{
+  margin-left: 165px;
+  float: left;
+  margin-top: -120px;
+  font-size: 20px;
+
+}
+.info-game-home-skyrim a{
+  font-size: 15px;
+  color: #1154b2;
+}
+.line-list-switch-rigth-xeboblade{
+float: left;
+margin-top: -430px;
+width: 500px;
+margin-left: 10px;
+}
+.xenoblade{
+  float: left;
+  margin-top: -350px;
+
+
+
 }
 
 /*
 .
 
 
-.stars-switch-list{
-  position: relative;
-  padding-left: 180px;
-margin-top: -150px;
-}
+
 .img-list-switch-rigth {
   float: left;
   margin-left: -335px;
