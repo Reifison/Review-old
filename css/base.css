@@ -172,12 +172,9 @@ border-top: 0px;
 .home-list-plataforms{
   float: left;
   position: relative;
-color: blue;
 padding-left: 20px;
-
-
-
 }
+
 .list-games-swtich{
 position: relative;
 margin-top: 0px;
@@ -186,7 +183,6 @@ float: left;
 }
 .skyrim{
 margin-left: 13px;
-
 position: relative;
 background-color: ;
 height: 600px;
@@ -202,9 +198,10 @@ width: 600px;
 .skyrim p{
 padding-left: 20px;
 position: relative;
-margin-top: -10px;
+margin-top: -35px;
 color: black;
 float: left;
+width: 500px;
 }
 .stars-switch-list{
   position: relative;
@@ -224,41 +221,90 @@ float: left;
   color: #1154b2;
 
 }
-.review-user{
-padding-top: 50px;
-padding-left: -50px;
-
+.info-game-home-skyrim p{
+padding-top: 20px;
+margin-left: -180px;
+text-align: justify;
 
 }
+.info-text-game p{
+  margin-left: -5px;
+  margin-top: -30px;
+
+}
+
+
 .line-list-switch-rigth-xeboblade{
 float: left;
-margin-top: -280px;
+margin-top: -270px;
 width: 500px;
 margin-left: 10px;
 }
 .xenoblade{
   float: left;
-  margin-top: -250px;
-
-
-
+  margin-top: -260px;
+  margin-left: 13px;
+  font-size: 20px;
 }
 
-/*
-.
-
-
-
-.img-list-switch-rigth {
+.info-game-home-xenoblade{
   float: left;
-  margin-left: -335px;
-  margin-top: 50px;
+  margin-left: 165px;
+  margin-top: -120px;
+}
+.info-game-home-xenoblade p{
+  float: left;
+  margin-top: -10px;
+  margin-left: 15px;
+}
+.info-game-home-xenoblade a{
+  font-size: 15px;
+}
+.review-text-preview-home-xenoblade{
+  color: black;
+  margin-left: px;
   position: relative;
+  margin-top: -35px;
+  color: black;
+  float: left;
+  width: 500px;
+  font-size: 20px;
+  text-align:justify;
 }
 
-.stars-switch-list{
-  float: left;
-  margin-left: -355px;
-  margin-top: 50px;
+.review-text-preview-home-xenoblade a{
+  font-size: 15px;
 }
-*/
+/* Mario Kart css */
+.mario-kart{
+  position: relative;
+  margin-top: -618px;
+  margin-left: 700px;
+  width: 500px;
+}
+.mario-kart hr{
+  margin-top: -741px;
+  margin-left: 0px;
+}
+.mario-kart h2{
+  margin-top: -581px;
+  margin-left: 75px;
+}
+.stars-switch-list-mario-kart{
+  position: relative;
+  margin-top: -150px;
+  margin-left: 180px;
+}
+.mario-kart p{
+  font-size: 20px;
+  padding-left: 193px;
+  padding-top: 30px;
+}
+.mario-kart a{
+  font-size: 15px;
+}
+.review-text-preview-home-mario-kart {
+ margin-left: -192px;
+ margin-top: -78px;
+ text-align: justify;
+}
