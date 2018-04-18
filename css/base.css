@@ -1,6 +1,7 @@
 body{
   background-color: #e0e2e2;
   background-color: white;
+
 }
 div#interface{
   width: 1600px;
@@ -9,11 +10,11 @@ div#interface{
   padding-top: 40px;
 }
 .logo{
-background-color: red;
-position: absolute;
+  background-color: red;
+  position: absolute;
   height: 20px;
   width: 8%;
-z-index: 1000;
+  z-index: 1000;
   float: left;
   margin-right: 30px;
   margin-top: -35px;
@@ -25,15 +26,16 @@ nav#menu{
 
 }
 nav#menu ul{
-list-style: none;
-text-transform: uppercase;
-position: absolute;
-top: -20px;
+  list-style: none;
+  text-transform: uppercase;
+  position: absolute;
+  top: -20px;
 
-background-color: black;
-padding-left: 400px;
-padding-top: 4px;
-width: 1200px;
+  background-color: black;
+  padding-left: 400px;
+  padding-top: 4px;
+  width: 100%;
+  margin-left:-50px;
 }
 nav#menu li{
   display: inline-block;
@@ -47,7 +49,7 @@ nav#menu li a{
   hover color: red;
 }
 nav#menu li a:hover{
-color: red;
+  color: red;
 
 }
 
@@ -57,11 +59,11 @@ nav#menu li:hover{
 }
 
 .main-publi-top{
-height: 90px;
-width: 728px;
-background-color: #aeb0b2;
-position: relative;
-margin: auto;
+  height: 90px;
+  width: 728px;
+  background-color: #aeb0b2;
+  position: relative;
+  margin: auto;
 }
 
 .banner-home{
@@ -99,9 +101,9 @@ hr{
   width: 30%;
   height: 02px;
   background-color: red;
-margin-left: 0;
-margin-bottom: 10px;
-border-top: 0px;
+  margin-left: 0;
+  margin-bottom: 10px;
+  border-top: 0px;
 }
 
 .info-game-home{
@@ -113,7 +115,7 @@ border-top: 0px;
   font-size: 20px;
   padding-left: 20px;
   float: left;
-margin-top: -15px;
+  margin-top: -15px;
 }
 .info-game-home a{
   font-size: 15px;
@@ -140,9 +142,9 @@ h2{
   width: 30%;
   height: 02px;
   background-color: red;
-margin-left: 0;
-margin-top: 130px;
-border-top: 0px;
+  margin-left: 0;
+  margin-top: 130px;
+  border-top: 0px;
 }
 .col-right-review{
   position: relative;
@@ -163,30 +165,83 @@ border-top: 0px;
   float: left;
   width: 30%;
   height: 02px;
-  background-color: red;
-
-margin-top: 0px;
-border-top: 0px;
+  margin-top: -10px;
+  border-top: 0px;
 
 }
+.splatoon-2 hr{
+  width: 500px;
+}
+.splatoon-2 h2{
+  float: left;
+  position: relative;
+  margin-top: -120px;
+  margin-left: 150px;
+  width: 300px;
+
+}
+.info-game-home-splatoon{
+  float: left;
+  position: relative;
+  margin-top: -120px;
+  margin-left: 170px;
+  width: 300px;
+  font-size: 20px
+}
+.info-game-home-splatoon a{
+  font-size: 15px;
+}
+
+/*NBA*/
+
+.nba{
+  position: relative;
+  float: left;
+  margin-top: 170px;
+}
+.nba hr{
+  width: 500px;
+}
+.nba h2{
+  float: left;
+  position: relative;
+  margin-top: -120px;
+  margin-left: 150px;
+  width: 300px;
+  }
+.info-game-home-nba-2k18{
+  float: left;
+  position: relative;
+  margin-top: -120px;
+  margin-left: 170px;
+  width: 300px;
+  font-size: 20px
+}
+.info-game-home-nba-2k18 a{
+  font-size: 15px;
+}
+
+
 .home-list-plataforms{
   float: left;
   position: relative;
-padding-left: 20px;
+  padding-left: 20px;
+  position: relative;
+  margin-top: -100px;
 }
 
 .list-games-swtich{
-position: relative;
-margin-top: 0px;
-float: left;
+  position: relative;
+  margin-top: 0px;
+  float: left;
 
 }
 .skyrim{
-margin-left: 13px;
-position: relative;
-background-color: ;
-height: 600px;
-width: 600px;
+  margin-left: 13px;
+  position: relative;
+  background-color: ;
+  height: 600px;
+  width: 600px;
 }
 .line-list-switch-rigth {
   float: left;
@@ -196,18 +251,18 @@ width: 600px;
   width: 500px;
 }
 .skyrim p{
-padding-left: 20px;
-position: relative;
-margin-top: -35px;
-color: black;
-float: left;
-width: 500px;
+  padding-left: 20px;
+  position: relative;
+  margin-top: -35px;
+  color: black;
+  float: left;
+  width: 500px;
 }
 .stars-switch-list{
   position: relative;
   padding-left: 180px;
-margin-top: -150px;
-float: left;
+  margin-top: -150px;
+  float: left;
 }
 .info-game-home-skyrim{
   margin-left: 165px;
@@ -222,9 +277,9 @@ float: left;
 
 }
 .info-game-home-skyrim p{
-padding-top: 20px;
-margin-left: -180px;
-text-align: justify;
+  padding-top: 20px;
+  margin-left: -180px;
+  text-align: justify;
 
 }
 .info-text-game p{
@@ -235,10 +290,10 @@ text-align: justify;
 
 
 .line-list-switch-rigth-xeboblade{
-float: left;
-margin-top: -270px;
-width: 500px;
-margin-left: 10px;
+  float: left;
+  margin-top: -270px;
+  width: 500px;
+  margin-left: 10px;
 }
 .xenoblade{
   float: left;
@@ -279,7 +334,7 @@ margin-left: 10px;
 .mario-kart{
   position: relative;
   margin-top: -618px;
-  margin-left: 700px;
+  margin-left: 650px;
   width: 500px;
 }
 .mario-kart hr{
@@ -288,7 +343,7 @@ margin-left: 10px;
 }
 .mario-kart h2{
   margin-top: -581px;
-  margin-left: 75px;
+  margin-left: 25px;
 }
 .stars-switch-list-mario-kart{
   position: relative;
@@ -304,16 +359,16 @@ margin-left: 10px;
   font-size: 15px;
 }
 .review-text-preview-home-mario-kart {
- margin-left: -192px;
- margin-top: -78px;
- text-align: justify;
+  margin-left: -192px;
+  margin-top: -78px;
+  text-align: justify;
 }
 
 /*Zelda*/
 .zelda{
   position: relative;
   margin-top: -18px;
-  margin-left: 700px;
+  margin-left: 650px;
   width: 500px;
 }
 .zelda hr{
@@ -322,7 +377,7 @@ margin-left: 10px;
 }
 .zelda h2{
   margin-top: -230px;
-  margin-left: 75px;
+  margin-left: 25px;
 }
 .stars-switch-list-zelda{
   position: relative;
@@ -339,19 +394,46 @@ margin-left: 10px;
 }
 
 .review-text-preview-home-zelda p{
-padding-left: 00px;
-margin-top: -50px;
-text-align: justify;
+  padding-left: 00px;
+  margin-top: -50px;
+  text-align: justify;
 }
 
 /*bloco ps4*/
 .playstation-4-list-games {
-float: left;
-width: 500px;
+  float: left;
+  width: 500px;
 }
 .playstation-4-list-games hr{
   margin-left:20px;
   float: left;
   margin-top: 0px;
   width: 500px;
+}
+
+/*bloco xbox*/
+.x-box-one-list-games{
+  margin-left:20px;
+  float: left;
+  margin-top: 0px;
+  width: 500px;
+
+}
+
+/*pc list */
+.pc-list-games{
+  float: left;
+  margin-top: 400px;
+  width: 500px;
+  height: 300px;
+  margin-left: -500px;
+}
+
+footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #efefef;
+
 }
