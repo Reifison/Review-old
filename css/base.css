@@ -400,9 +400,16 @@ h2{
 }
 
 /*bloco ps4*/
+.skyrim-ps4{
+  width: 500px;
+  margin-left: 20px;
+}
 .playstation-4-list-games {
   float: left;
   width: 500px;
+  font-size: 20px;
+
+
 }
 .playstation-4-list-games hr{
   margin-left:20px;
@@ -410,6 +417,48 @@ h2{
   margin-top: 0px;
   width: 500px;
 }
+.playstation-4-list-games a{
+  font-size: 15px;
+}
+.info-game-home-skyrim{
+  float: left;
+  margin-top: -110px;
+}
+
+.info-text-game-ps4-skyrim{
+
+  float: left;
+  margin-top: -55px;
+  margin-left: 200px;
+}
+.review-text-preview-home-ps4-skirym p{
+  padding-left: 15px;
+  margin-top: 50px;
+  text-align: justify;
+}
+/*last of us*/
+.last{
+  width: 500px;
+  float: left;
+  height: 500px;
+  margin-left: 20px;
+}
+.last hr{
+  margin-left: 0px;
+}
+.last h2{
+  margin-left: 170px;
+  margin-top: -120px;
+}
+.info-text-game-last{
+  margin-left: 190px;
+  margin-top: -115px;
+}
+.review-text-preview-home-last{
+  margin-top: -30px;
+  text-align: justify;
+}
+
 
 /*bloco xbox*/
 .x-box-one-list-games{
@@ -417,7 +466,6 @@ h2{
   float: left;
   margin-top: 0px;
   width: 500px;
-
 }
 
 /*pc list */
