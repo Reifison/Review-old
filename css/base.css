@@ -458,7 +458,50 @@ h2{
   margin-top: -30px;
   text-align: justify;
 }
-
+/* God of war*/
+.god{
+  width: 500px;
+  float: left;
+  margin-top: -896px;
+  margin-left: 650px;
+}
+.god hr{
+  margin-left: 0px;
+}
+.god h2{
+  margin-left: 170px;
+  margin-top: -120px;
+}
+.info-text-game-god{
+  margin-left: 190px;
+  margin-top: -120px;
+}
+.review-text-preview-home-god{
+  margin-top: -30px;
+  text-align: justify;
+}
+/* Horizon zero Down*/
+.horizon{
+  width: 500px;
+  float: left;
+  margin-top: -500px;
+  margin-left: 650px;
+}
+.horizon hr{
+  margin-left: 0px;
+}
+.horizon h2{
+  margin-left: 170px;
+  margin-top: -120px;
+}
+.info-text-game-horizon{
+  margin-left: 190px;
+  margin-top: -120px;
+}
+.review-text-preview-home-horizon{
+  margin-top: -30px;
+  text-align: justify;
+}
 
 /*bloco xbox*/
 .x-box-one-list-games{
