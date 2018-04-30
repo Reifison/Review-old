@@ -643,47 +643,31 @@ footer{
 footer h4{
   font-size: 17px;
 }
-.coluna1{
-  width: 300px;
-  height: 180px;
+.coluna{
   padding-left: 50px;
   padding-top: 5px;
   position: relative;
   font-size: 15px;
+  width: 250px;
   float: left;
 }
-.coluna1 li{
-  padding-top: 5px;
-}
-.coluna1 li a{
-color: white;
-text-decoration: none;
+.coluna li{
+  padding-top: 3px;
 
 }
-.coluna1 li a:hover{
-  color: red;
+.coluna li a{
+  color: white;
+  text-decoration: none;
 }
-ul{
-  list-style: none;
-}
-.coluna2{
-  width: 300px;
-  height: 180px;
-  padding-left: 350px;
-  padding-top: 5px;
-  font-size: 15px;
-}
-.coluna2 li{
-  padding-top: 5px;
-}
-.coluna2 li a{
-color: white;
-text-decoration: none;
 
-}
-.coluna2 li a:hover{
+.coluna li a:hover{
   color: red;
+
 }
 li{
   list-style: none;
+  color: white;
+}
+.coluna ul{
+  padding-bottom: 40px;
 }
