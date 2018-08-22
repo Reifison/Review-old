@@ -9,7 +9,7 @@ body a{
 div#interface{
 
 
-  
+
   padding-top: 40px;
 }
 .logo{
@@ -353,12 +353,12 @@ h2{
   margin-left: 0px;
 }
 .mario-kart h2{
-  margin-top: -581px;
+  margin-top: -580px;
   margin-left: 25px;
 }
 .stars-switch-list-mario-kart{
-  position: relative;
-  margin-top: -150px;
+
+  margin-top:-150px;
   margin-left: 180px;
 }
 .mario-kart p{
@@ -370,20 +370,25 @@ h2{
   font-size: 15px;
 }
 .review-text-preview-home-mario-kart {
-  margin-left: -192px;
-  margin-top: -78px;
+  margin-left: -190px;
+  margin-top: -250px;
   text-align: justify;
+  float: left;
+}
+.mario-kart hr{
+  margin-top: -385px;
+  margin-left: 0px;
 }
 
 /*Zelda*/
 .zelda{
-  position: relative;
-  margin-top: -18px;
+
+  margin-top: 180px;
   margin-left: 650px;
   width: 500px;
 }
 .zelda hr{
-  margin-top: -380px;
+  margin-top: 380px;
   margin-left: 0px;
 }
 .zelda h2{
