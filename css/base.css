@@ -8,7 +8,7 @@ body a{
 }
 div#interface{
 
-
+width: 80%;
 
   padding-top: 40px;
 }
@@ -39,12 +39,14 @@ nav#menu ul{
   padding-top: 4px;
   width: 100%;
   margin-left:-50px;
+
 }
 nav#menu li{
   display: inline-block;
   padding: 8px;
   margin: 4px;
   color: #d3d9e2;
+  
 }
 nav#menu li a{
   color: #d3d9e2;
