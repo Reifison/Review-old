@@ -1,7 +1,7 @@
 body{
   background-color: #e0e2e2;
   background-color: white;
-
+  width: 100%;
 }
 body a{
   font-size: 15px;
@@ -46,7 +46,7 @@ nav#menu li{
   padding: 8px;
   margin: 4px;
   color: #d3d9e2;
-  
+
 }
 nav#menu li a{
   color: #d3d9e2;
@@ -57,12 +57,9 @@ nav#menu li a:hover{
   color: red;
 
 }
-.login {
-  font-size: 15px;
-margin-left: 800px;
-width: 200px;
-
-
+.login{
+display: inline;
+margin-left: 400px;
 }
 
 
@@ -119,8 +116,27 @@ hr{
   border-top: 0px;
 }
 
-.info-game-home{
+.card-game{
+  width: 30%;
+}
 
+.rocket-league{
+  position: relative;
+  height: 02px;
+  background-color: red;
+  margin-left: 0;
+  border-top: 0px;
+
+}
+
+.stars-home-rocket-league{
+ padding-left: 160px;
+ margin-top: -150px;
+}
+
+.info-game-home-rocket-league{
+  padding-left: 165px;
+   margin-top: -150px;
   float: left;
 
 }
@@ -137,10 +153,7 @@ hr{
 .img-info-game-home{
   float: left;
 }
-.stars-home{
-  padding-left: 160px;
-  position: relative;
-}
+
 h2{
   position: relative;
   float: left;
@@ -644,13 +657,13 @@ h2{
   height: 300px;
   margin-left: -500px;
 }
-
+/*footer*/
 footer{
 
   position: fixed;
   left: 0;
   bottom: 0;
-  width: 100%;
+  padding-top: 10px;
   background-color: black;
   font-size: 15px;
   color: white;
