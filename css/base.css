@@ -1,7 +1,13 @@
 body{
   background-color: #e0e2e2;
   background-color: white;
+<<<<<<< HEAD
   width: 100%;
+=======
+  width: 1300px;
+  height: 100%;
+  
+>>>>>>> 2550a60e8e29d59ece3ae265c2b173305e9de929
 }
 body a{
   font-size: 15px;
@@ -660,13 +666,19 @@ h2{
 /*footer*/
 footer{
 
-  position: fixed;
   left: 0;
   bottom: 0;
+<<<<<<< HEAD
   padding-top: 10px;
+=======
+  width: 1300px;
+  height: 100%;
+>>>>>>> 2550a60e8e29d59ece3ae265c2b173305e9de929
   background-color: black;
   font-size: 15px;
   color: white;
+  overflow: hidden;
+  margin-bottom: 0px;
 }
 footer h4{
   font-size: 17px;
