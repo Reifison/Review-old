@@ -6,7 +6,7 @@ body{
 =======
   width: 1300px;
   height: 100%;
-  
+
 >>>>>>> 2550a60e8e29d59ece3ae265c2b173305e9de929
 }
 body a{
@@ -24,7 +24,6 @@ width: 80%;
   height: 20px;
   width: 8%;
   z-index: 1000;
-  float: left;
   margin-right: 30px;
   margin-top: -35px;
 
@@ -73,7 +72,10 @@ margin-left: 400px;
 nav#menu li:hover{
   color: red;
 }
-
+.banners{
+  background-color: red;
+  height: 500px;
+}
 .main-publi-top{
   height: 90px;
   width: 728px;
@@ -97,7 +99,6 @@ nav#menu li:hover{
   width: 100%;
   text-align: center;
   position: relative;
-  float: left;
   margin-left: 320px;
   margin-top: -340px;
 }
@@ -105,7 +106,6 @@ nav#menu li:hover{
   width: 100%;
   text-align: center;
   position: relative;
-  float: left;
   margin-left: 320px;
   margin-top: -150px;
 }
@@ -126,13 +126,15 @@ hr{
   width: 30%;
 }
 
-.rocket-league{
-  position: relative;
-  height: 02px;
-  background-color: red;
-  margin-left: 0;
-  border-top: 0px;
+.col-left-review{
+  height: 500px;
+  background-color: blue;
+}
 
+.rocket-league{
+  background-color: yellow;
+  height: 230px;
+  padding: 10px 10px;
 }
 
 .stars-home-rocket-league{
@@ -142,30 +144,28 @@ hr{
 
 .info-game-home-rocket-league{
   padding-left: 165px;
-   margin-top: -150px;
-  float: left;
+   margin-top: -50px;
+
 
 }
 .info-game-home p{
   font-size: 20px;
   padding-left: 20px;
-  float: left;
-  margin-top: -15px;
+
+  margin-top: px;
 }
 .info-game-home a{
   font-size: 15px;
   color: #1154b2;
 }
 .img-info-game-home{
-  float: left;
+
 }
 
 h2{
-  position: relative;
-  float: left;
-  padding-left: 18px;
+
   margin-top: 0px;
-  font-size: 30px;
+  font-size: 25px;
   color: red;
 
 }
@@ -180,7 +180,6 @@ h2{
 }
 .col-right-review{
   position: relative;
-  float: left;
   margin-left: 200px;
   margin-top: -220px;
   width: 400px;
@@ -192,522 +191,4 @@ h2{
   position: relative;
   margin-left:
   margin-top: -180px;
-}
-.splatoon-2{
-  float: left;
-  width: 30%;
-  height: 02px;
-  margin-top: -10px;
-  border-top: 0px;
-
-}
-.splatoon-2 hr{
-  width: 500px;
-}
-.splatoon-2 h2{
-  float: left;
-  position: relative;
-  margin-top: -120px;
-  margin-left: 150px;
-  width: 300px;
-
-}
-.info-game-home-splatoon{
-  float: left;
-  position: relative;
-  margin-top: -120px;
-  margin-left: 170px;
-  width: 300px;
-  font-size: 20px
-}
-.info-game-home-splatoon a{
-  font-size: 15px;
-}
-
-/*NBA*/
-
-.nba{
-  position: relative;
-  float: left;
-  margin-top: 170px;
-}
-.nba hr{
-  width: 500px;
-}
-.nba h2{
-  float: left;
-  position: relative;
-  margin-top: -120px;
-  margin-left: 150px;
-  width: 300px;
-  }
-.info-game-home-nba-2k18{
-  float: left;
-  position: relative;
-  margin-top: -120px;
-  margin-left: 170px;
-  width: 300px;
-  font-size: 20px
-}
-.info-game-home-nba-2k18 a{
-  font-size: 15px;
-}
-
-
-.home-list-plataforms{
-  float: left;
-  position: relative;
-  padding-left: 20px;
-  position: relative;
-  margin-top: -100px;
-}
-
-.list-games-swtich{
-  position: relative;
-  margin-top: 0px;
-  float: left;
-
-}
-.skyrim{
-  margin-left: 13px;
-  position: relative;
-  background-color: ;
-  height: 600px;
-  width: 600px;
-}
-.line-list-switch-rigth {
-  float: left;
-  margin-left: -330px;
-  margin-top: 60px;;
-  position: relative;
-  width: 500px;
-}
-.skyrim p{
-  padding-left: 20px;
-  position: relative;
-  margin-top: -35px;
-  color: black;
-  float: left;
-  width: 500px;
-}
-.stars-switch-list{
-  position: relative;
-  padding-left: 180px;
-  margin-top: -150px;
-  float: left;
-}
-.info-game-home-skyrim{
-  margin-left: 165px;
-  float: left;
-  margin-top: -120px;
-  font-size: 20px;
-
-}
-.info-game-home-skyrim a{
-  font-size: 15px;
-  color: #1154b2;
-
-}
-.info-game-home-skyrim p{
-  padding-top: 20px;
-  margin-left: -180px;
-  text-align: justify;
-
-}
-.info-text-game p{
-  margin-left: -5px;
-  margin-top: -30px;
-
-}
-
-
-.line-list-switch-rigth-xeboblade{
-  float: left;
-  margin-top: -270px;
-  width: 500px;
-  margin-left: 10px;
-}
-.xenoblade{
-  float: left;
-  margin-top: -260px;
-  margin-left: 13px;
-  font-size: 20px;
-}
-
-.info-game-home-xenoblade{
-  float: left;
-  margin-left: 165px;
-  margin-top: -120px;
-}
-.info-game-home-xenoblade p{
-  float: left;
-  margin-top: -10px;
-  margin-left: 15px;
-}
-.info-game-home-xenoblade a{
-  font-size: 15px;
-}
-.review-text-preview-home-xenoblade{
-  color: black;
-  margin-left: px;
-  position: relative;
-  margin-top: -35px;
-  color: black;
-  float: left;
-  width: 500px;
-  font-size: 20px;
-  text-align:justify;
-}
-
-.review-text-preview-home-xenoblade a{
-  font-size: 15px;
-}
-/* Mario Kart css */
-.mario-kart{
-  position: relative;
-  margin-top: -618px;
-  margin-left: 650px;
-  width: 500px;
-}
-.mario-kart hr{
-  margin-top: -741px;
-  margin-left: 0px;
-}
-.mario-kart h2{
-  margin-top: -115px;
-  margin-left: 125px;
-}
-.stars-switch-list-mario-kart{
-
-  margin-top:-150px;
-  margin-left: 180px;
-}
-.mario-kart p{
-  font-size: 20px;
-  padding-left: 193px;
-  padding-top: 30px;
-}
-.mario-kart a{
-  font-size: 15px;
-}
-.review-text-preview-home-mario-kart {
-  margin-left: -190px;
-  margin-top: -250px;
-  text-align: justify;
-  float: left;
-}
-.mario-kart hr{
-  margin-top: -385px;
-  margin-left: 0px;
-}
-
-/*Zelda*/
-.zelda{
-
-  margin-top: 180px;
-  margin-left: 650px;
-  width: 500px;
-}
-.zelda hr{
-  margin-top: 380px;
-  margin-left: 0px;
-}
-.zelda h2{
-  margin-top: -230px;
-  margin-left: 25px;
-}
-.stars-switch-list-zelda{
-  position: relative;
-  margin-top: -150px;
-  margin-left: 180px;
-}
-.zelda p{
-  font-size: 20px;
-  padding-left: 190px;
-  padding-top: 30px;
-}
-.zelda a{
-  font-size: 15px;
-}
-
-.review-text-preview-home-zelda p{
-  padding-left: 00px;
-  margin-top: -50px;
-  text-align: justify;
-}
-
-/*bloco ps4*/
-.skyrim-ps4{
-  width: 500px;
-  margin-left: 20px;
-}
-.playstation-4-list-games {
-  float: left;
-  width: 500px;
-  font-size: 20px;
-
-
-}
-.playstation-4-list-games hr{
-  margin-left:20px;
-  float: left;
-  margin-top: 0px;
-  width: 500px;
-}
-.playstation-4-list-games a{
-  font-size: 15px;
-}
-.info-game-home-skyrim{
-  float: left;
-  margin-top: -110px;
-}
-
-.info-text-game-ps4-skyrim{
-
-  float: left;
-  margin-top: -55px;
-  margin-left: 200px;
-}
-.review-text-preview-home-ps4-skirym p{
-  padding-left: 15px;
-  margin-top: 50px;
-  text-align: justify;
-}
-/*last of us*/
-.last{
-  width: 500px;
-  float: left;
-  height: 500px;
-  margin-left: 20px;
-}
-.last hr{
-  margin-left: 0px;
-}
-.last h2{
-  margin-left: 170px;
-  margin-top: -120px;
-}
-.info-text-game-last{
-  margin-left: 190px;
-  margin-top: -115px;
-}
-.review-text-preview-home-last{
-  margin-top: -30px;
-  text-align: justify;
-}
-/* God of war*/
-.god{
-  width: 500px;
-  float: left;
-  margin-top: -896px;
-  margin-left: 650px;
-}
-.god hr{
-  margin-left: 0px;
-}
-.god h2{
-  margin-left: 170px;
-  margin-top: -120px;
-}
-.info-text-game-god{
-  margin-left: 190px;
-  margin-top: -120px;
-}
-.review-text-preview-home-god{
-  margin-top: -30px;
-  text-align: justify;
-}
-/* Horizon zero Down*/
-.horizon{
-  width: 500px;
-  float: left;
-  margin-top: -500px;
-  margin-left: 650px;
-}
-.horizon hr{
-  margin-left: 0px;
-}
-.horizon h2{
-  margin-left: 170px;
-  margin-top: -120px;
-}
-.info-text-game-horizon{
-  margin-left: 190px;
-  margin-top: -120px;
-}
-.review-text-preview-home-horizon{
-  margin-top: -30px;
-  text-align: justify;
-}
-
-/*creed*/
-.creed{
-  width: 500px;
-  float: left;
-  height: 500px;
-  margin-left: 20px;
-  font-size: 20px;
-}
-.creed hr{
-  margin-top: 10px;
-  margin-left: 0px;
-  width: 500px;
-}
-.creed h2{
-  margin-left: 170px;
-  margin-top: -120px;
-}
-.info-text-game-creed{
-  margin-left: 190px;
-  margin-top: -115px;
-}
-.review-text-preview-home-creed{
-  margin-top: -30px;
-  text-align: justify;
-}
-
-/*bloco xbox*/
-.x-box-one-list-games{
-  margin-left:20px;
-  float: left;
-  margin-top: 0px;
-  width: 500px;
-}
-/*fifa*/
-.fifa{
-  width: 500px;
-  float: left;
-  height: 500px;
-  margin-left: 20px;
-  font-size: 20px;
-  margin-top: -30px;
-}
-
-.fifa hr{
-  margin-top: 10px;
-  margin-left: 0px;
-  width: 500px;
-}
-.fifa h2{
-  margin-left: 170px;
-  margin-top: -120px;
-}
-.info-text-game-fifa{
-  margin-left: 190px;
-  margin-top: -115px;
-}
-.review-text-preview-home-fifa{
-  margin-top: -30px;
-  text-align: justify;
-}
-
-/*GTA*/
-.gta{
-  width: 500px;
-  float: left;
-  margin-top: -1020px;
-  margin-left: 650px;
-  font-size: 20px;
-}
-.gta hr{
-  margin-left: 0px;
-}
-.gta h2{
-  margin-left: 170px;
-  margin-top: -120px;
-}
-.info-text-game-gta{
-  margin-left: 190px;
-  margin-top: -120px;
-}
-.review-text-preview-home-gta{
-  margin-top: -30px;
-  text-align: justify;
-}
-/* Far Cry*/
-.far{
-  width: 500px;
-  float: left;
-  margin-top: -550px;
-  margin-left: 650px;
-  font-size: 20px;
-}
-.far hr{
-  margin-left: 0px;
-}
-.far h2{
-  margin-left: 170px;
-  margin-top: -120px;
-}
-.info-text-game-far{
-  margin-left: 190px;
-  margin-top: -120px;
-}
-.review-text-preview-home-far{
-  margin-top: -30px;
-  text-align: justify;
-}
-
-/*bloco xbox*/
-.x-box-one-list-games{
-  margin-left:20px;
-  float: left;
-  margin-top: 0px;
-  width: 500px;
-}
-/*pc list */
-.pc-list-games{
-  float: left;
-  margin-top: 400px;
-  width: 500px;
-  height: 300px;
-  margin-left: -500px;
-}
-/*footer*/
-footer{
-
-  left: 0;
-  bottom: 0;
-<<<<<<< HEAD
-  padding-top: 10px;
-=======
-  width: 1300px;
-  height: 100%;
->>>>>>> 2550a60e8e29d59ece3ae265c2b173305e9de929
-  background-color: black;
-  font-size: 15px;
-  color: white;
-  overflow: hidden;
-  margin-bottom: 0px;
-}
-footer h4{
-  font-size: 17px;
-}
-.coluna{
-  padding-left: 50px;
-  padding-top: 5px;
-  position: relative;
-  font-size: 15px;
-  width: 250px;
-  float: left;
-}
-.coluna li{
-  padding-top: 3px;
-
-}
-.coluna li a{
-  color: white;
-  text-decoration: none;
-}
-
-.coluna li a:hover{
-  color: red;
-
-}
-li{
-  list-style: none;
-  color: white;
-}
-.coluna ul{
-  padding-bottom: 40px;
 }
