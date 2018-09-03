@@ -1,21 +1,14 @@
 body{
   background-color: #e0e2e2;
   background-color: white;
-<<<<<<< HEAD
   width: 100%;
-=======
-  width: 1300px;
   height: 100%;
-
->>>>>>> 2550a60e8e29d59ece3ae265c2b173305e9de929
 }
 body a{
   font-size: 15px;
 }
 div#interface{
-
-width: 80%;
-
+  width: 80%;
   padding-top: 40px;
 }
 .logo{
@@ -128,30 +121,11 @@ hr{
 
 .col-left-review{
   height: 500px;
-  background-color: blue;
 }
 
-.rocket-league{
-  background-color: yellow;
-  height: 230px;
-  padding: 10px 10px;
-}
-
-.stars-home-rocket-league{
- padding-left: 160px;
- margin-top: -150px;
-}
-
-.info-game-home-rocket-league{
-  padding-left: 165px;
-   margin-top: -50px;
-
-
-}
 .info-game-home p{
   font-size: 20px;
   padding-left: 20px;
-
   margin-top: px;
 }
 .info-game-home a{
@@ -163,32 +137,92 @@ hr{
 }
 
 h2{
-
   margin-top: 0px;
   font-size: 25px;
   color: red;
-
 }
+/* card de destaque rocket-league */
+.rocket-league{
+  height: 180px;
+  padding: 10px 10px;
+}
+
+.stars-home-rocket-league{
+ padding-left: 160px;
+ margin-top: -150px;
+}
+
+.info-game-home-rocket-league{
+  padding-left: 165px;
+}
+.info-game-home-rocket-league p{
+margin-top: -35px;
+}
+/*  fim card de destaque rocket-league */
+
+/* card de destaque Dandara */
 .dandara{
-  position: relative;
-  width: 30%;
-  height: 02px;
-  background-color: red;
-  margin-left: 0;
-  margin-top: 130px;
-  border-top: 0px;
+  height: 180px;
+  padding: 10px 10px;
 }
+.stars-home-dandara{
+  padding-left: 160px;
+  margin-top: -150px;
+}
+.info-game-home-dandara{
+  padding-left: 165px;
+}
+.info-game-home-dandara p{
+  margin-top: -35px;
+}
+
+/*  fim card de destaque Dandara */
+
+/* right column*/
 .col-right-review{
-  position: relative;
-  margin-left: 200px;
-  margin-top: -220px;
-  width: 400px;
-
   height: 500px;
+  width: 100%;
+  margin-left: 500px;
+  margin-top: -500px;
 }
 
-.line-right-review{
-  position: relative;
-  margin-left:
-  margin-top: -180px;
+/* card de destaque Splatoon */
+.splatoon-2{
+  height: 180px;
+  padding: 10px 10px;
 }
+.stars-home-splatoon{
+  padding-left: 160px;
+  margin-top: -150px;
+}
+.info-game-home-splatoon{
+  padding-left: 165px;
+}
+.info-game-home-splatoon p{
+  margin-top: -35px;
+}
+.splatoon-2 h2{
+  margin-left: 165px;
+}
+/*  fim card de destaque Splatoon */
+
+/*  card de destaque NBA */
+.nba {
+  height: 180px;
+  padding: 10px 10px;
+}
+.stars-home-nba{
+  padding-left: 160px;
+  margin-top: -150px;
+}
+.info-game-home-nba{
+  padding-left: 165px;
+}
+.info-game-home-nba p{
+  margin-top: -35px;
+}
+.nba h2{
+  margin-left: 165px;
+}
+
+/*  fim card de destaque NBA */
