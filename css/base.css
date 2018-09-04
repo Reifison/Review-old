@@ -226,3 +226,43 @@ margin-top: -35px;
 }
 
 /*  fim card de destaque NBA */
+
+/*começo Plataformas*/
+.Plataformas{
+  background-color: red;
+  height: 2000px;
+}
+.Switch{
+  background-color: yellow;
+  height: 500px;
+  width: 100%;
+}
+.switch-left-column{
+  background-color: ;
+  width: 30%;
+  height: 400px;
+}
+.zelda{
+
+}
+.img-list-switch-left{
+  padding-left: 10px;
+}
+.stars-switch-list-zelda{
+  padding-left: 165px;
+  margin-top: -140px;
+}
+.zelda h2{
+  padding-left: 165px;
+}
+.info-text-game-zelda{
+  padding-left: 165px;
+  margin-top: -50px;
+}
+.review-text-preview-home-zelda{
+  text-align: justify;
+}
+.review-text-preview-home-zelda a{
+  padding-left: 265px;
+
+}
