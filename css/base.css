@@ -145,12 +145,21 @@ h2{
 .rocket-league{
   height: 180px;
   width: 350px;
-  
-}
+  background-color: rgb(127,255,212);
+  margin-bottom: 5px;
 
+}
+.img-rocket-league-home{
+  background-color: rgb(138,43,226);
+  height: 150px;
+  width: 150px;
+}
 .stars-home-rocket-league{
- padding-left: 160px;
- margin-top: -160px;
+  margin-left: 163px;
+  margin-top: -150px;
+  background-color: rgb(120,30,50);
+  height: 30px;
+  width:180px;
 }
 
 .info-game-home-rocket-league{
@@ -164,13 +173,23 @@ margin-top: -35px;
 /* card de destaque Dandara */
 .dandara{
   height: 180px;
-  padding: 10px 10px;
   width: 350px;
+  background-color: rgb(127,255,212);
 }
+.img-dandara-home{
+  background-color: rgb(138,43,226);
+  height: 150px;
+  width: 150px;
+}
+
 .stars-home-dandara{
-  padding-left: 160px;
- margin-top: -160px;
+  margin-left: 163px;
+  margin-top: -150px;
+  background-color: rgb(120,30,50);
+  height: 30px;
+  width:180px;
 }
+
 .info-game-home-dandara{
   padding-left: 165px;
 }
@@ -191,12 +210,20 @@ margin-top: -35px;
 /* card de destaque Splatoon */
 .splatoon-2{
   height: 180px;
-  padding: 10px 10px;
-  width: 350px;
+  background-color: rgb(127,255,212);
+  margin-bottom: 5px;
+}
+.img-splaaton-home{
+  background-color: rgb(138,43,226);
+  height: 150px;
+  width: 150px;
 }
 .stars-home-splatoon{
- padding-left: 160px;
- margin-top: -160px;
+  margin-left: 163px;
+  margin-top: -150px;
+  background-color: rgb(120,30,50);
+  height: 30px;
+  width:180px;
 }
 .info-game-home-splatoon{
   padding-left: 165px;
@@ -212,12 +239,21 @@ margin-top: -35px;
 /*  card de destaque NBA */
 .nba {
   height: 180px;
-  padding: 10px 10px;
+
   width: 350px;
+  background-color: rgb(127,255,212);
 }
 .stars-home-nba{
-  padding-left: 160px;
- margin-top: -160px;
+  margin-left: 163px;
+  margin-top: -150px;
+  background-color: rgb(120,30,50);
+  height: 30px;
+  width:180px;
+}
+.img-nba-home{
+  background-color: rgb(138,43,226);
+  height: 150px;
+  width: 150px;
 }
 .info-game-home-nba{
   padding-left: 165px;
@@ -238,35 +274,97 @@ margin-top: -35px;
 }
 .Switch{
   background-color: yellow;
-  height: 500px;
-  width: 100%;
+  height: 960px;
+  width: 98%;
 }
 .switch-left-column{
-  background-color: ;
-  width: 30%;
-  height: 400px;
+  background-color: #DAA520;
+  height: 900px;
+  width: 40%;
 }
-.zelda{
 
+/*comeco do zelda*/
+.zelda{
+margin-left: 10px;
 }
 .img-list-switch-left{
   padding-left: 10px;
+  background-color: rgb(138,43,226);
+  height: 150px;
+  width: 150px;
 }
 .stars-switch-list-zelda{
-  padding-left: 165px;
-  margin-top: -140px;
+  margin-left: 163px;
+  margin-top: -150px;
+  background-color: rgb(120,30,50);
+  height: 30px;
+  width:180px;
 }
 .zelda h2{
   padding-left: 165px;
 }
 .info-text-game-zelda{
-  padding-left: 165px;
-  margin-top: -50px;
+  margin-left: 163px;
+  margin-top: -20px;
+  height: 120px;
+  width: 180px;
+  background-color: #FF4500;
 }
 .review-text-preview-home-zelda{
   text-align: justify;
+  background-color: #9ACD32;
+  height: 250px;
+  width: 345px;
 }
 .review-text-preview-home-zelda a{
   padding-left: 265px;
+}
 
+/*fim do Zelda*/
+
+/*começo do mario*/
+
+.Mario{
+margin-left: 10px;
+}
+.img-list-switch-left{
+  padding-left: 10px;
+  background-color: rgb(138,43,226);
+  height: 150px;
+  width: 150px;
+}
+.stars-switch-list-mario{
+  margin-left: 163px;
+  margin-top: -150px;
+  background-color: rgb(120,30,50);
+  height: 30px;
+  width:180px;
+}
+.zelda h2{
+  padding-left: 165px;
+}
+.info-text-game-mario{
+  margin-left: 163px;
+  margin-top: -20px;
+  height: 120px;
+  width: 180px;
+  background-color: #FF4500;
+}
+.review-text-preview-home-mario{
+  text-align: justify;
+  background-color: #9ACD32;
+  height: 250px;
+  width: 345px;
+}
+.review-text-preview-home-mario a{
+  padding-left: 265px;
+}
+
+/*coluna direita*/
+.switch-right-column{
+  background-color: #DAA520;
+  height: 900px;
+  width: 40%;
+margin-top: -900px;
+  margin-left: 600px;
 }
