@@ -368,3 +368,56 @@ margin-left: 10px;
 margin-top: -900px;
   margin-left: 600px;
 }
+
+/* plataforma playstation */
+
+.Playstation{
+  background-color: yellow;
+  height: 960px;
+  width: 98%;
+}
+.playstation-left-column{
+  background-color: #DAA520;
+  height: 900px;
+  width: 40%;
+  
+}
+
+/*comeco do last*/
+.last-of-us{
+margin-left: 10px;
+}
+.img-list-playstation-left{
+  padding-left: 10px;
+  background-color: rgb(138,43,226);
+  height: 150px;
+  width: 150px;
+}
+.stars-playstation-list-last{
+  margin-left: 163px;
+  margin-top: -150px;
+  background-color: rgb(120,30,50);
+  height: 30px;
+  width:180px;
+}
+.last-of-us h2{
+  padding-left: 165px;
+}
+.info-text-game-last{
+  margin-left: 163px;
+  margin-top: -20px;
+  height: 120px;
+  width: 180px;
+  background-color: #FF4500;
+}
+.review-text-preview-home-last{
+  text-align: justify;
+  background-color: #9ACD32;
+  height: 250px;
+  width: 345px;
+}
+.review-text-preview-home-last a{
+  padding-left: 265px;
+}
+
+/*fim do last/
