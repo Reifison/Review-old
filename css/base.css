@@ -1,70 +1,59 @@
+
 body{
-  background-color: #e0e2e2;
   background-color: white;
-  width: 100%;
-  height: 100%;
+  height: 100vh;
+
 }
 body a{
   font-size: 15px;
 }
-div#interface{
-  width: 80%;
-  padding-top: 40px;
-}
-.logo{
-  background-color: red;
-  position: absolute;
-  height: 20px;
-  width: 8%;
-  z-index: 1000;
-  margin-right: 30px;
-  margin-top: -35px;
 
-}
-nav#menu{
+
+nav{
   display: block;
   color: white;
+  background-color: black;
 
 }
-nav#menu ul{
+nav ul{
   list-style: none;
   text-transform: uppercase;
-  position: absolute;
-  top: -20px;
-
-  background-color: black;
-  padding-left: 200px;
-  padding-top: 4px;
-  width: 100%;
-  margin-left:-50px;
-
+  padding: 0;
 }
-nav#menu li{
-  display: inline-block;
-  padding: 8px;
-  margin: 4px;
-  color: #d3d9e2;
 
-}
-nav#menu li a{
+nav a{
   color: #d3d9e2;
   text-decoration: none;
   hover color: red;
+  display: block;
+  text-align: center;
+  padding: 10px;
+
 }
-nav#menu li a:hover{
+nav a:hover{
   color: red;
 
 }
-.login{
-display: inline;
-margin-left: 400px;
+
+@media screen and (min-width: 768px) {
+  nav ul{
+  display: flex;
+  justify-content: space-around;
+  }
+  nav li{
+    //flex: 1 1 0;
+  }
+
+}
+
+nav img{
+  padding-top: 5px;
 }
 
 
 
-nav#menu li:hover{
-  color: red;
-}
+
+
 .banners{
   background-color: red;
   height: 500px;
@@ -113,6 +102,9 @@ hr{
   margin-left: 0;
   margin-bottom: 10px;
   border-top: 0px;
+}
+.content{
+  flex: 1 0 auto;
 }
 
 .card-game{
@@ -270,7 +262,7 @@ margin-top: -35px;
 /*começo Plataformas*/
 .Plataformas{
   background-color: red;
-  height: 2000px;
+  height: 90%;
 }
 .Switch{
   background-color: yellow;
@@ -325,7 +317,7 @@ margin-left: 10px;
 /*começo do mario*/
 
 .Mario{
-margin-left: 10px;
+  margin-left: 10px;
 }
 .img-list-switch-left{
   padding-left: 10px;
@@ -365,7 +357,7 @@ margin-left: 10px;
   background-color: #DAA520;
   height: 900px;
   width: 40%;
-margin-top: -900px;
+  margin-top: -900px;
   margin-left: 600px;
 }
 
@@ -380,7 +372,7 @@ margin-top: -900px;
   background-color: #DAA520;
   height: 900px;
   width: 40%;
-  
+
 }
 
 /*comeco do last*/
@@ -420,4 +412,204 @@ margin-left: 10px;
   padding-left: 265px;
 }
 
-/*fim do last/
+/*fim do last*/
+
+
+/* plataforma Xbox */
+
+.xbox{
+  background-color: yellow;
+  height: 960px;
+  width: 98%;
+}
+.xbox-left-column{
+  background-color: #DAA520;
+  height: 900px;
+  width: 40%;
+}
+.xbox-right-column{
+  background-color: #DAA520;
+  height: 900px;
+  width: 40%;
+  margin-top: -900px;
+  margin-left: 600px;
+}
+/*começo do Fifa*/t
+.fifa{
+margin-left: 10px;
+}
+.img-list-xbox-left{
+  padding-left: 10px;
+  background-color: rgb(138,43,226);
+  height: 150px;
+  width: 150px;
+}
+.stars-xbox-list-fifa{
+  margin-left: 163px;
+  margin-top: -150px;
+  background-color: rgb(120,30,50);
+  height: 30px;
+  width:180px;
+}
+.fifa h2{
+  padding-left: 165px;
+}
+.info-text-game-fifa{
+  margin-left: 163px;
+  margin-top: -20px;
+  height: 120px;
+  width: 180px;
+  background-color: #FF4500;
+}
+.review-text-preview-home-fifa{
+  text-align: justify;
+  background-color: #9ACD32;
+  height: 250px;
+  width: 345px;
+}
+.review-text-preview-home-fifa a{
+  padding-left: 265px;
+}
+
+/*fim do fifa*/
+
+/* inicio tomb raider*/
+
+.tomb-raider{
+  margin-left: 10px;
+}
+.img-list-xbox-left{
+  padding-left: 10px;
+  background-color: rgb(138,43,226);
+  height: 150px;
+  width: 150px;
+}
+.stars-xbox-list-tomb{
+  margin-left: 163px;
+  margin-top: -150px;
+  background-color: rgb(120,30,50);
+  height: 30px;
+  width:180px;
+}
+.tomb-raider h2{
+  padding-left: 165px;
+}
+.info-text-game-tomb{
+  margin-left: 163px;
+  margin-top: -20px;
+  height: 120px;
+  width: 180px;
+  background-color: #FF4500;
+}
+.review-text-preview-home-tomb{
+  text-align: justify;
+  background-color: #9ACD32;
+  height: 250px;
+  width: 345px;
+}
+.review-text-preview-home-tomb a{
+  padding-left: 265px;
+}
+/*fim do tomb raider */
+
+/* começo do Assassins Creed */
+.creed{
+  margin-left: 10px;
+}
+.img-list-xbox-left{
+  padding-left: 10px;
+  background-color: rgb(138,43,226);
+  height: 150px;
+  width: 150px;
+}
+.stars-xbox-list-creed{
+  margin-left: 163px;
+  margin-top: -150px;
+  background-color: rgb(120,30,50);
+  height: 30px;
+  width:180px;
+}
+.creed h2{
+  padding-left: 165px;
+}
+.info-text-game-creed{
+  margin-left: 163px;
+  margin-top: -20px;
+  height: 120px;
+  width: 180px;
+  background-color: #FF4500;
+}
+.review-text-preview-home-creed{
+  text-align: justify;
+  background-color: #9ACD32;
+  height: 250px;
+  width: 345px;
+}
+.review-text-preview-home-creed a{
+  padding-left: 265px;
+}
+
+/* fim do assassins creed */
+
+/* começo do farcry */
+.farcry{
+  margin-left: 10px;
+}
+.img-list-xbox-left{
+  padding-left: 10px;
+  background-color: rgb(138,43,226);
+  height: 150px;
+  width: 150px;
+}
+.stars-xbox-list-farcry{
+  margin-left: 163px;
+  margin-top: -150px;
+  background-color: rgb(120,30,50);
+  height: 30px;
+  width:180px;
+}
+.farcry h2{
+  padding-left: 165px;
+}
+.info-text-game-farcry{
+  margin-left: 163px;
+  margin-top: -20px;
+  height: 120px;
+  width: 180px;
+  background-color: #FF4500;
+}
+.review-text-preview-home-farcry{
+  text-align: justify;
+  background-color: #9ACD32;
+  height: 250px;
+  width: 345px;
+}
+.review-text-preview-home-farcry a{
+  padding-left: 265px;
+}
+
+/* fim do Farcry */
+
+/*footer*/
+.footer{
+  background-color: black;
+  margin-top: 5px;
+  height:100%;
+  bottom: 0px;
+  padding-top: 20px;
+  left: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+
+}
+.footer a{
+  color: white;
+}
+
+.footer h4{
+  color:white;
+}
