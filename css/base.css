@@ -1,7 +1,7 @@
 
 body{
   background-color: white;
-  height: 100vh;
+
 
 }
 body a{
@@ -34,7 +34,6 @@ nav a:hover{
   color: red;
 
 }
-
 @media screen and (min-width: 768px) {
   nav ul{
   display: flex;
@@ -49,47 +48,39 @@ nav a:hover{
 nav img{
   padding-top: 5px;
 }
-
-
-
-
-
 .banners{
   background-color: red;
-  height: 500px;
+  display: flex;
+
 }
 .main-publi-top{
   height: 90px;
   width: 728px;
   background-color: #aeb0b2;
-  position: relative;
-  margin: auto;
+  display: flex;
+  justify-content: center;
+  margin-left: 30%;
+  margin-bottom: 5PX;
+
 }
 
 .banner-home{
 
 }
 .main-banner{
-  width: 100%;
-  vertical-align: middle;
-  text-align: center;
-  position: relative;
-  margin-left: -113px;;
-  margin-top: 10px;
+  justify-content: center;
+
+
 }
 .small-banner-1{
   width: 100%;
-  text-align: center;
-  position: relative;
-  margin-left: 320px;
-  margin-top: -340px;
+
+
 }
 .small-banner-2{
   width: 100%;
-  text-align: center;
-  position: relative;
-  margin-left: 320px;
-  margin-top: -150px;
+
+
 }
 h1{
   color: red;
@@ -103,161 +94,73 @@ hr{
   margin-bottom: 10px;
   border-top: 0px;
 }
-.content{
-  flex: 1 0 auto;
-}
-
-.card-game{
-  width: 30%;
-}
-
-.col-left-review{
-  height: 500px;
-}
-
-.info-game-home p{
-  font-size: 20px;
-  padding-left: 20px;
-  margin-top: px;
-}
-.info-game-home a{
-  font-size: 15px;
-  color: #1154b2;
-}
-.img-info-game-home{
-
-}
-
 h2{
   margin-top: 0px;
   font-size: 25px;
   color: red;
 }
+.content{
+width: 70%;
+}
+
+.card-game{
+display: flex;
+
+justify-content:center;
+}
+@media (min-width:768px) {
+
+
+.last-review{
+  padding-left: 55px;
+  display: flex;
+
+}
+}
 /* card de destaque rocket-league */
 .rocket-league{
-  height: 180px;
-  width: 350px;
-  background-color: rgb(127,255,212);
-  margin-bottom: 5px;
-
+  padding: 2px;
+  flex:3;
 }
-.img-rocket-league-home{
-  background-color: rgb(138,43,226);
-  height: 150px;
+.img-last-review{
   width: 150px;
+  flex-wrap: wrap;
+
 }
-.stars-home-rocket-league{
-  margin-left: 163px;
-  margin-top: -150px;
-  background-color: rgb(120,30,50);
-  height: 30px;
-  width:180px;
+.stars-home{
+  display: flex;
+  padding-left: 155px;
+  padding-right: 2px;
+  margin-top: -155px;
 }
 
-.info-game-home-rocket-league{
-  padding-left: 165px;
+.info-game-home{
+  padding-left: 155px;
 }
-.info-game-home-rocket-league p{
-margin-top: -35px;
+.info-game-home p {
+  margin-top: -20px;
 }
-/*  fim card de destaque rocket-league */
 
-/* card de destaque Dandara */
+/* Dandara */
 .dandara{
-  height: 180px;
-  width: 350px;
-  background-color: rgb(127,255,212);
+flex:1;
 }
-.img-dandara-home{
-  background-color: rgb(138,43,226);
-  height: 150px;
-  width: 150px;
-}
-
-.stars-home-dandara{
-  margin-left: 163px;
-  margin-top: -150px;
-  background-color: rgb(120,30,50);
-  height: 30px;
-  width:180px;
-}
-
-.info-game-home-dandara{
-  padding-left: 165px;
-}
-.info-game-home-dandara p{
-  margin-top: -35px;
-}
-
-/*  fim card de destaque Dandara */
-
-/* right column*/
-.col-right-review{
-  height: 500px;
-  width: 100%;
-  margin-left: 500px;
-  margin-top: -500px;
-}
-
-/* card de destaque Splatoon */
+/*  Splatoon */
 .splatoon-2{
-  height: 180px;
-  background-color: rgb(127,255,212);
-  margin-bottom: 5px;
-}
-.img-splaaton-home{
-  background-color: rgb(138,43,226);
-  height: 150px;
-  width: 150px;
-}
-.stars-home-splatoon{
-  margin-left: 163px;
-  margin-top: -150px;
-  background-color: rgb(120,30,50);
-  height: 30px;
-  width:180px;
-}
-.info-game-home-splatoon{
-  padding-left: 165px;
-}
-.info-game-home-splatoon p{
-  margin-top: -35px;
-}
-.splatoon-2 h2{
-  margin-left: 165px;
-}
-/*  fim card de destaque Splatoon */
 
-/*  card de destaque NBA */
+
+}
+/*  NBA */
 .nba {
-  height: 180px;
 
-  width: 350px;
-  background-color: rgb(127,255,212);
-}
-.stars-home-nba{
-  margin-left: 163px;
-  margin-top: -150px;
-  background-color: rgb(120,30,50);
-  height: 30px;
-  width:180px;
-}
-.img-nba-home{
-  background-color: rgb(138,43,226);
-  height: 150px;
-  width: 150px;
-}
-.info-game-home-nba{
-  padding-left: 165px;
-}
-.info-game-home-nba p{
-  margin-top: -35px;
-}
-.nba h2{
-  margin-left: 165px;
-}
 
-/*  fim card de destaque NBA */
+}
+.ads{
+flex: 3;
+  background-color: yellow;
+
+
+}
 
 /*começo Plataformas*/
 .Plataformas{
@@ -595,9 +498,10 @@ margin-left: 10px;
   background-color: black;
   margin-top: 5px;
   height:100%;
-  bottom: 0px;
+
   padding-top: 20px;
-  left: 0;
+
+
   width: 100%;
   display: flex;
   flex-direction: row;
