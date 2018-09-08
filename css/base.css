@@ -59,27 +59,28 @@ nav img{
   background-color: #aeb0b2;
   display: flex;
   justify-content: center;
-  margin-left: 30%;
+  margin-left: 20%;
   margin-bottom: 5PX;
 
 }
 
 .banner-home{
-
+display: flex;
+justify-content: center;
 }
 .main-banner{
-  justify-content: center;
 
+display: flex;
 
 }
 .small-banner-1{
-  width: 100%;
 
+display: flex;
 
 }
 .small-banner-2{
-  width: 100%;
 
+display: flex;
 
 }
 h1{
