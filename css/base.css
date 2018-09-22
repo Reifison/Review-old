@@ -130,6 +130,11 @@ justify-content:center;
   margin-left: 50px;
   display: flex;
 }
+.playstation4{
+  width: 90%;
+  margin-left: 50px;
+  display: flex;
+}
 
 /* card de destaque rocket-league */
 .rocket-league{
