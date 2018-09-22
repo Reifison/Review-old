@@ -123,6 +123,12 @@ justify-content:center;
 .nintendo-switch{
   width: 90%;
   margin-left: 50px;
+  display: flex;
+}
+.xbox-one{
+  width: 90%;
+  margin-left: 50px;
+  display: flex;
 }
 
 /* card de destaque rocket-league */
@@ -184,16 +190,6 @@ width:90%;
 }
 
 
-.nintendo-switch{
-  display: flex;
-}
-.text-preview{
-  display: flex;
-
-}
-.dont-starve-switch{
-  display: flex;
-}
 }
 
 /*footer*/
