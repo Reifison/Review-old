@@ -104,11 +104,11 @@ h2{
 }
 .content{
 width: 70%;
+
 }
 
 .card-game{
 display: flex;
-
 justify-content:center;
 }
 @media (min-width:768px) {
@@ -119,11 +119,16 @@ justify-content:center;
   display: flex;
 
 }
+
+.nintendo-switch{
+  width: 90%;
+  margin-left: 50px;
 }
+
 /* card de destaque rocket-league */
 .rocket-league{
   padding: 2px;
-  flex:3;
+
 }
 .img-last-review{
   width: 150px;
@@ -140,361 +145,56 @@ justify-content:center;
 .info-game-home{
   padding-left: 155px;
 }
-.info-game-home p {
-  margin-top: -20px;
+
+
+.text-preview{
+  margin-left: -155px;
+  margin-top: 40px;
+
+  display: flex;
+}
+.second-column-switch{
+  margin-top: 80px;
+}
+.first-column-switch p{
+margin-top: px;
+
 }
 
+/*rocket-league*/
+.rocket-league{
+  width: 90%;
+}
+.mario-kart{
+  width: 90%;
+
+}
 /* Dandara */
 .dandara{
-flex:1;
-}
-/*  Splatoon */
-.splatoon-2{
 
-
+width: 90%;
 }
-/*  NBA */
-.nba {
+/*xenoblade*/
+.xenoblade{
 
-
+width:90%;
 }
-.ads{
-flex: 3;
-  background-color: yellow;
-
-
-}
-
-/*começo Plataformas*/
-.Plataformas{
-  background-color: red;
-  height: 90%;
-}
-.Switch{
-  background-color: yellow;
-  height: 960px;
-  width: 98%;
-}
-.switch-left-column{
-  background-color: #DAA520;
-  height: 900px;
-  width: 40%;
-}
-
-/*comeco do zelda*/
-.zelda{
-margin-left: 10px;
-}
-.img-list-switch-left{
-  padding-left: 10px;
-  background-color: rgb(138,43,226);
+.img-last-review{
   height: 150px;
-  width: 150px;
-}
-.stars-switch-list-zelda{
-  margin-left: 163px;
-  margin-top: -150px;
-  background-color: rgb(120,30,50);
-  height: 30px;
-  width:180px;
-}
-.zelda h2{
-  padding-left: 165px;
-}
-.info-text-game-zelda{
-  margin-left: 163px;
-  margin-top: -20px;
-  height: 120px;
-  width: 180px;
-  background-color: #FF4500;
-}
-.review-text-preview-home-zelda{
-  text-align: justify;
-  background-color: #9ACD32;
-  height: 250px;
-  width: 345px;
-}
-.review-text-preview-home-zelda a{
-  padding-left: 265px;
 }
 
-/*fim do Zelda*/
 
-/*começo do mario*/
-
-.Mario{
-  margin-left: 10px;
+.nintendo-switch{
+  display: flex;
 }
-.img-list-switch-left{
-  padding-left: 10px;
-  background-color: rgb(138,43,226);
-  height: 150px;
-  width: 150px;
-}
-.stars-switch-list-mario{
-  margin-left: 163px;
-  margin-top: -150px;
-  background-color: rgb(120,30,50);
-  height: 30px;
-  width:180px;
-}
-.zelda h2{
-  padding-left: 165px;
-}
-.info-text-game-mario{
-  margin-left: 163px;
-  margin-top: -20px;
-  height: 120px;
-  width: 180px;
-  background-color: #FF4500;
-}
-.review-text-preview-home-mario{
-  text-align: justify;
-  background-color: #9ACD32;
-  height: 250px;
-  width: 345px;
-}
-.review-text-preview-home-mario a{
-  padding-left: 265px;
-}
-
-/*coluna direita*/
-.switch-right-column{
-  background-color: #DAA520;
-  height: 900px;
-  width: 40%;
-  margin-top: -900px;
-  margin-left: 600px;
-}
-
-/* plataforma playstation */
-
-.Playstation{
-  background-color: yellow;
-  height: 960px;
-  width: 98%;
-}
-.playstation-left-column{
-  background-color: #DAA520;
-  height: 900px;
-  width: 40%;
+.text-preview{
+  display: flex;
 
 }
-
-/*comeco do last*/
-.last-of-us{
-margin-left: 10px;
-}
-.img-list-playstation-left{
-  padding-left: 10px;
-  background-color: rgb(138,43,226);
-  height: 150px;
-  width: 150px;
-}
-.stars-playstation-list-last{
-  margin-left: 163px;
-  margin-top: -150px;
-  background-color: rgb(120,30,50);
-  height: 30px;
-  width:180px;
-}
-.last-of-us h2{
-  padding-left: 165px;
-}
-.info-text-game-last{
-  margin-left: 163px;
-  margin-top: -20px;
-  height: 120px;
-  width: 180px;
-  background-color: #FF4500;
-}
-.review-text-preview-home-last{
-  text-align: justify;
-  background-color: #9ACD32;
-  height: 250px;
-  width: 345px;
-}
-.review-text-preview-home-last a{
-  padding-left: 265px;
+.dont-starve-switch{
+  display: flex;
 }
 
-/*fim do last*/
-
-
-/* plataforma Xbox */
-
-.xbox{
-  background-color: yellow;
-  height: 960px;
-  width: 98%;
-}
-.xbox-left-column{
-  background-color: #DAA520;
-  height: 900px;
-  width: 40%;
-}
-.xbox-right-column{
-  background-color: #DAA520;
-  height: 900px;
-  width: 40%;
-  margin-top: -900px;
-  margin-left: 600px;
-}
-/*começo do Fifa*/t
-.fifa{
-margin-left: 10px;
-}
-.img-list-xbox-left{
-  padding-left: 10px;
-  background-color: rgb(138,43,226);
-  height: 150px;
-  width: 150px;
-}
-.stars-xbox-list-fifa{
-  margin-left: 163px;
-  margin-top: -150px;
-  background-color: rgb(120,30,50);
-  height: 30px;
-  width:180px;
-}
-.fifa h2{
-  padding-left: 165px;
-}
-.info-text-game-fifa{
-  margin-left: 163px;
-  margin-top: -20px;
-  height: 120px;
-  width: 180px;
-  background-color: #FF4500;
-}
-.review-text-preview-home-fifa{
-  text-align: justify;
-  background-color: #9ACD32;
-  height: 250px;
-  width: 345px;
-}
-.review-text-preview-home-fifa a{
-  padding-left: 265px;
-}
-
-/*fim do fifa*/
-
-/* inicio tomb raider*/
-
-.tomb-raider{
-  margin-left: 10px;
-}
-.img-list-xbox-left{
-  padding-left: 10px;
-  background-color: rgb(138,43,226);
-  height: 150px;
-  width: 150px;
-}
-.stars-xbox-list-tomb{
-  margin-left: 163px;
-  margin-top: -150px;
-  background-color: rgb(120,30,50);
-  height: 30px;
-  width:180px;
-}
-.tomb-raider h2{
-  padding-left: 165px;
-}
-.info-text-game-tomb{
-  margin-left: 163px;
-  margin-top: -20px;
-  height: 120px;
-  width: 180px;
-  background-color: #FF4500;
-}
-.review-text-preview-home-tomb{
-  text-align: justify;
-  background-color: #9ACD32;
-  height: 250px;
-  width: 345px;
-}
-.review-text-preview-home-tomb a{
-  padding-left: 265px;
-}
-/*fim do tomb raider */
-
-/* começo do Assassins Creed */
-.creed{
-  margin-left: 10px;
-}
-.img-list-xbox-left{
-  padding-left: 10px;
-  background-color: rgb(138,43,226);
-  height: 150px;
-  width: 150px;
-}
-.stars-xbox-list-creed{
-  margin-left: 163px;
-  margin-top: -150px;
-  background-color: rgb(120,30,50);
-  height: 30px;
-  width:180px;
-}
-.creed h2{
-  padding-left: 165px;
-}
-.info-text-game-creed{
-  margin-left: 163px;
-  margin-top: -20px;
-  height: 120px;
-  width: 180px;
-  background-color: #FF4500;
-}
-.review-text-preview-home-creed{
-  text-align: justify;
-  background-color: #9ACD32;
-  height: 250px;
-  width: 345px;
-}
-.review-text-preview-home-creed a{
-  padding-left: 265px;
-}
-
-/* fim do assassins creed */
-
-/* começo do farcry */
-.farcry{
-  margin-left: 10px;
-}
-.img-list-xbox-left{
-  padding-left: 10px;
-  background-color: rgb(138,43,226);
-  height: 150px;
-  width: 150px;
-}
-.stars-xbox-list-farcry{
-  margin-left: 163px;
-  margin-top: -150px;
-  background-color: rgb(120,30,50);
-  height: 30px;
-  width:180px;
-}
-.farcry h2{
-  padding-left: 165px;
-}
-.info-text-game-farcry{
-  margin-left: 163px;
-  margin-top: -20px;
-  height: 120px;
-  width: 180px;
-  background-color: #FF4500;
-}
-.review-text-preview-home-farcry{
-  text-align: justify;
-  background-color: #9ACD32;
-  height: 250px;
-  width: 345px;
-}
-.review-text-preview-home-farcry a{
-  padding-left: 265px;
-}
-
-/* fim do Farcry */
 
 /*footer*/
 .footer{
