@@ -175,15 +175,24 @@ margin-top: px;
 /*rocket-league*/
 .rocket-league{
   width: 90%;
+  margin-left: 50px;
+  padding-right: 50px;
 }
 .mario-kart{
   width: 90%;
-
+padding-right: 50px;
+margin-top: 10px;
 }
 /* Dandara */
 .dandara{
-
+margin-left: 50px;
+margin-top: 10px;
 width: 90%;
+}
+.nba{
+
+
+
 }
 /*xenoblade*/
 .xenoblade{
