@@ -8,9 +8,7 @@ body{
 body a{
   font-size: 15px;
 }
-section{
 
-}
 .side-ads{
 
   display: flex;
@@ -30,7 +28,7 @@ nav ul{
 nav a{
   color: #d3d9e2;
   text-decoration: none;
-  hover color: red;
+
   display: block;
   text-align: center;
   padding: 10px;
@@ -45,9 +43,7 @@ nav a:hover{
   display: flex;
   justify-content: space-around;
   }
-  nav li{
-    //flex: 1 1 0;
-  }
+
 
 }
 
@@ -105,7 +101,6 @@ hr{
   border-top: 0px;
 }
 h2{
-  margin-top: 0px;
   font-size: 25px;
   color: red;
 }
@@ -117,7 +112,6 @@ width: 100%;
 .card-game{
 display: flex;
 
-align-items: center;
 }
 @media (min-width:768px) {
 
@@ -129,17 +123,16 @@ align-items: center;
 
 .nintendo-switch{
   width: 90%;
-  margin-left: 50px;
   display: flex;
 }
 .xbox-one{
   width: 90%;
-  margin-left: 50px;
+
   display: flex;
 }
 .playstation4{
   width: 90%;
-  margin-left: 50px;
+
   display: flex;
 }
 
@@ -174,10 +167,7 @@ align-items: center;
 .second-column-switch{
   margin-top: 80px;
 }
-.first-column-switch p{
-margin-top: px;
 
-}
 
 /*rocket-league*/
 .rocket-league{
@@ -200,6 +190,7 @@ width: 90%;
 
 
 }
+
 /*xenoblade*/
 .xenoblade{
 
