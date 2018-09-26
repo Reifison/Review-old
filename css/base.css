@@ -223,3 +223,44 @@ width:90%;
 .footer h4{
   color:white;
 }
+
+
+/*page game review*/
+
+.main-banner-review{
+  display: flex;
+  justify-content: center;
+}
+
+.game-title{
+  font-size: 50px;
+}
+.subtitle-game{
+  font-size: 20px;
+  color: #52565b;
+  margin-top: -40px;
+}
+.title-game-box{
+  padding-left: 50px;
+}
+.text-content-game{
+  width: 70%;
+  font-size: 18px;
+  padding-left: 50px;
+  padding-right: 50px;
+
+
+}
+.side-ads-game{
+
+
+width: 30%;
+justify-content: center;
+}
+.flex-content{
+  display: flex;
+}
+.side-bar-game{
+  display: flex;
+  flex-direction: column;
+}
