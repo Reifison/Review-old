@@ -197,25 +197,19 @@ width:90%;
 }
 
 
-}
+
 
 /*footer*/
 .footer{
   background-color: black;
   margin-top: 5px;
-  height:100%;
-
-  padding-top: 20px;
-
-
+  position: absolute;
   width: 100%;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  padding-top: 20px;
   justify-content: space-around;
-
-
+  display: flex;
 }
+
 .footer a{
   color: white;
 }
@@ -252,8 +246,6 @@ width:90%;
 
 }
 .side-ads-game{
-
-
 width: 30%;
 justify-content: center;
 }
@@ -263,4 +255,11 @@ justify-content: center;
 .side-bar-game{
   display: flex;
   flex-direction: column;
+}
+.recomendation{
+  display: flex;
+  width: 80%;
+  padding-left: 50px;
+
+}
 }
