@@ -291,5 +291,10 @@ justify-content: center;
 .text-last-review-player{
   padding: 20px;
 }
+.others-texts{
+  display: flex;
+ 
+  
 
+}
 }
