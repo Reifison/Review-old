@@ -274,7 +274,7 @@ justify-content: center;
   padding-left: 50px;
 
 }
-}
+
 /*plataform page*/
 .plataform-content{
   display: flex;
@@ -283,5 +283,13 @@ justify-content: center;
  display: flex;
 justify-content: center;
 
+
+}
+.last-review-player{
+  display: flex;
+}
+.text-last-review-player{
+  padding: 20px;
+}
 
 }
