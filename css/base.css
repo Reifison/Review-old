@@ -176,6 +176,9 @@ display: flex;
 .second-column-switch{
   margin-top: 80px;
 }
+.second-column-switch-plataform{
+  margin-top: 10px;
+}
 
 
 /*rocket-league*/
@@ -276,8 +279,9 @@ justify-content: center;
 .plataform-content{
   display: flex;
 }
-.main-banner-Plataform{
-  display: flex;
-  justify-content: center;
-  width: 100%;
+.main-banner-plataform{
+ display: flex;
+justify-content: center;
+
+
 }
